@@ -1,0 +1,36 @@
+.button {
+    font-family: var(--cocogoose-darkmode), sans-serif;
+    padding: 18.5px 24px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+   
+    & .contained {
+        overflow: clip;
+    }
+
+    & .wrapped {
+        position: relative;
+        transition: transform 0.3s;
+        
+        &:before {
+            content: attr(data-before);
+            position: absolute;
+            left: 0;
+            top: 0;
+            transform: translateY(100%);
+        }
+    }
+
+    &:hover {
+        & .wrapped {
+            transform: translateY(-100%);
+        }
+    }
+}
+
+.primary {
+    background-color: var(--color-orangency);
+    color: var(--color-whitency);
+}

@@ -1,33 +1,41 @@
+@import url("./styles/cocogoose.css");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
+@layer base {
   :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+    --color-orangency: #FD6C43;
+    --color-whitency: #FEF6EC;
+
+    --cocogoose-darkmode: CocogoosePro-Darkmode;
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+
+  .container {
+    margin: 0 auto 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    @screen md {
+      padding-left: 40px;
+      padding-right: 40px;
+    }
+
+    @screen lg {
+      padding-left: 80px;
+      padding-right: 80px;
+    }
+  }
+}
+
+* {
+  -webkit-font-smoothing: antialiased;
 }

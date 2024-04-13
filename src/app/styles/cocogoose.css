@@ -1,0 +1,136 @@
+/* @font-face {
+  font-family: "CocogooseProBlock-BlockInnerl";
+  src: url('/fonts/CocogooseProBlockBlockInnerl/font.woff2') format('woff2'), url('/fonts/CocogooseProBlockBlockInnerl/font.woff') format('woff');
+  font-display: swap;
+}
+@font-face {
+  font-family: "CocogooseProBlock-Shadow";
+  src: url('/fonts/CocogooseProBlockShadow/font.woff2') format('woff2'), url('/fonts/CocogooseProBlockShadow/font.woff') format('woff');
+  font-display: swap;
+}
+@font-face {
+  font-family: "CocogoosePro-Light";
+  src: url('/fonts/CocogooseProLight/font.woff2') format('woff2'), url('/fonts/CocogooseProLight/font.woff') format('woff');
+  font-display: swap;
+}
+@font-face {
+  font-family: "CocogoosePro-ThinItalic";
+  src: url('/fonts/CocogooseProThinItalic/font.woff2') format('woff2'), url('/fonts/CocogooseProThinItalic/font.woff') format('woff');
+  font-display: swap;
+}
+@font-face {
+  font-family: "CocogoosePro-Italic";
+  src: url('/fonts/CocogooseProItalic/font.woff2') format('woff2'), url('/fonts/CocogooseProItalic/font.woff') format('woff');
+  font-display: swap;
+}
+@font-face {
+  font-family: "CocogoosePro-UltralightItalic";
+  src: url('/fonts/CocogooseProUltralightItalic/font.woff2') format('woff2'), url('/fonts/CocogooseProUltralightItalic/font.woff') format('woff');
+  font-display: swap;
+}
+@font-face {
+  font-family: "CocogoosePro-Semilight";
+  src: url('/fonts/CocogooseProSemilight/font.woff2') format('woff2'), url('/fonts/CocogooseProSemilight/font.woff') format('woff');
+  font-display: swap;
+}
+@font-face {
+  font-family: "CocogooseProText-Regular";
+  src: url('/fonts/CocogooseProTextRegular/font.woff2') format('woff2'), url('/fonts/CocogooseProTextRegular/font.woff') format('woff');
+  font-display: swap;
+}
+@font-face {
+  font-family: "CocogoosePro-LightItalic";
+  src: url('/fonts/CocogooseProLightItalic/font.woff2') format('woff2'), url('/fonts/CocogooseProLightItalic/font.woff') format('woff');
+  font-display: swap;
+}
+@font-face {
+  font-family: "CocogoosePro-Bold";
+  src: url('/fonts/CocogooseProBold/font.woff2') format('woff2'), url('/fonts/CocogooseProBold/font.woff') format('woff');
+  font-display: swap;
+}
+@font-face {
+  font-family: "CocogoosePro-Thin";
+  src: url('/fonts/CocogooseProThin/font.woff2') format('woff2'), url('/fonts/CocogooseProThin/font.woff') format('woff');
+  font-display: swap;
+}
+@font-face {
+  font-family: "CocogoosePro-Outlined";
+  src: url('/fonts/CocogooseProOutlined/font.woff2') format('woff2'), url('/fonts/CocogooseProOutlined/font.woff') format('woff');
+  font-display: swap;
+}
+@font-face {
+  font-family: "CocogooseProBlock-BlockBorder";
+  src: url('/fonts/CocogooseProBlockBlockBorder/font.woff2') format('woff2'), url('/fonts/CocogooseProBlockBlockBorder/font.woff') format('woff');
+  font-display: swap;
+}
+@font-face {
+  font-family: "CocogoosePro-Regular";
+  src: url('/fonts/CocogooseProRegular/font.woff2') format('woff2'), url('/fonts/CocogooseProRegular/font.woff') format('woff');
+  font-display: swap;
+}
+@font-face {
+  font-family: "CocogoosePro-DarkmodeItalic";
+  src: url('/fonts/CocogooseProDarkmodeItalic/font.woff2') format('woff2'), url('/fonts/CocogooseProDarkmodeItalic/font.woff') format('woff');
+  font-display: swap;
+}
+@font-face {
+  font-family: "CocogoosePro-Ultralight";
+  src: url('/fonts/CocogooseProUltralight/font.woff2') format('woff2'), url('/fonts/CocogooseProUltralight/font.woff') format('woff');
+  font-display: swap;
+} */
+@font-face {
+  font-family: "CocogoosePro-Darkmode";
+  src: url('/fonts/CocogooseProDarkmode/font.woff2') format('woff2'), url('/fonts/CocogooseProDarkmode/font.woff') format('woff');
+  font-display: swap;
+}
+/* @font-face {
+  font-family: "CocogooseProText-Italic";
+  src: url('/fonts/CocogooseProTextItalic/font.woff2') format('woff2'), url('/fonts/CocogooseProTextItalic/font.woff') format('woff');
+  font-display: swap;
+}
+@font-face {
+  font-family: "CocogoosePro-BoldItalic";
+  src: url('/fonts/CocogooseProBoldItalic/font.woff2') format('woff2'), url('/fonts/CocogooseProBoldItalic/font.woff') format('woff');
+  font-display: swap;
+}
+@font-face {
+  font-family: "CocogooseProBlock-Gradient";
+  src: url('/fonts/CocogooseProBlockGradient/font.woff2') format('woff2'), url('/fonts/CocogooseProBlockGradient/font.woff') format('woff');
+  font-display: swap;
+}
+@font-face {
+  font-family: "CocogoosePro-SemilightItalic";
+  src: url('/fonts/CocogooseProSemilightItalic/font.woff2') format('woff2'), url('/fonts/CocogooseProSemilightItalic/font.woff') format('woff');
+  font-display: swap;
+}
+@font-face {
+  font-family: "CocogooseProText-BoldItalic";
+  src: url('/fonts/CocogooseProTextBoldItalic/font.woff2') format('woff2'), url('/fonts/CocogooseProTextBoldItalic/font.woff') format('woff');
+  font-display: swap;
+}
+@font-face {
+  font-family: "CocogooseProInline-Regular";
+  src: url('/fonts/CocogooseProInlineRegular/font.woff2') format('woff2'), url('/fonts/CocogooseProInlineRegular/font.woff') format('woff');
+  font-display: swap;
+}
+@font-face {
+  font-family: "CocogooseProText-Bold";
+  src: url('/fonts/CocogooseProTextBold/font.woff2') format('woff2'), url('/fonts/CocogooseProTextBold/font.woff') format('woff');
+  font-display: swap;
+}
+@font-face {
+  font-family: "CocogooseProItVariable";
+  src: url('/fonts/CocogooseProItVariable/font.woff2') format('woff2'), url('/fonts/CocogooseProItVariable/font.woff') format('woff');
+  font-display: swap;
+}
+@font-face {
+  font-family: "CocogooseProLetterpress-Regular";
+  src: url('/fonts/CocogooseProLetterpressRegular/font.woff2') format('woff2'), url('/fonts/CocogooseProLetterpressRegular/font.woff') format('woff');
+  font-display: swap;
+}
+@font-face {
+  font-family: "CocogooseProVariable";
+  src: url('/fonts/CocogooseProVariable/font.woff2') format('woff2'), url('/fonts/CocogooseProVariable/font.woff') format('woff');
+  font-display: swap;
+} */
+
